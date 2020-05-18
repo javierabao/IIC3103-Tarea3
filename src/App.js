@@ -312,12 +312,12 @@ function App() {
         <div id="line_chart_div" style={{backgroundColor: "#F0F1F2", borderRadius: "4px", marginLeft: "10%", marginRight: "10%", marginBottom: "2%", paddingTop: "20px", paddingBottom: "20px"}}> 
         </div>
       </div>
-      <div style={{ textAlign: "center", alignItems: "center", justifyContent: "space-between", display: "flex", flexDirection: "row", marginLeft: "10%", marginRight: "10%", marginBottom: "2%"}}>
-        <div style={{backgroundColor: "#F0F1F2", borderRadius: "4px", padding: "20px"}}> 
+      <div style={{ textAlign: "center", alignItems: "center", justifyContent: "space-between", display: "flex", flexWrap: "wrap", flexDirection: "row", marginLeft: "10%", marginRight: "10%", marginBottom: "2%"}}>
+        <div style={{backgroundColor: "#F0F1F2", justifyContent: "center", borderRadius: "4px", padding: "20px"}}> 
           <div style={{fontFamily: "Raleway", fontSize: "30px", fontWeight: "bold" }}>Cambios en acciones</div>
           <div id="stocks_table_div"></div>
         </div>
-        <div style={{backgroundColor: "#F0F1F2", borderRadius: "4px", padding: "20px"}}>
+        <div style={{backgroundColor: "#F0F1F2", justifyContent: "center", borderRadius: "4px", padding: "20px"}}>
           <div style={{fontFamily: "Raleway", fontSize: "30px", fontWeight: "bold" }}>Cambios en mercados</div> 
           <div id="exchanges_table_div"></div>
         </div>
