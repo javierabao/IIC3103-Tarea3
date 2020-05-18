@@ -1,0 +1,44 @@
+.cssHeaderRow {
+    font-family: "Lato";
+    background-color: #f4511e;
+  }
+  
+  .cssTableRow {
+    font-family: "Lato";
+    background-color: #f0f1f2;
+    border: solid 2px #fff;
+    font-weight: bold;
+  }
+  
+  .cssOddTableRow {
+    font-family: "Lato";
+    background-color: #f0f1f2;
+    border: solid 2px #fff;
+    font-weight: bold;
+  }
+  
+  .cssSelectedTableRow {
+    font-family: "Lato";
+    font-weight: 700;
+    border: solid 2px #fff;
+  }
+  
+  .cssHoverTableRow {
+    background: #ccc;
+    border: solid 2px #fff;
+    font-weight: bold;
+  }
+  
+  .cssHeaderCell {
+    color: #fff;
+    border: solid 2px #fff;
+  }
+  
+  .cssTableCell {
+    border: solid 2px #fff;
+  }
+  
+.cssInfoHeaderRow {
+  font-family: "Lato";
+  background-color: #5CC4BD;
+}

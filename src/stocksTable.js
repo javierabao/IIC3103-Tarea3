@@ -1,13 +1,14 @@
 import { GoogleCharts } from 'google-charts';
+import './tables.css'
 
 export function drawTable(stocks, dictVolTot, dictAltHis, dictBajHis, dictLastPrice, dictPorc) {
     const data = new GoogleCharts.api.visualization.DataTable();
     
-    data.addColumn('string', 'Stock');
+    data.addColumn('string', 'Acción');
     data.addColumn('number', 'Vol. Total');
-    data.addColumn('number', 'Alto historico');
-    data.addColumn('number', 'Bajo historico');
-    data.addColumn('number', 'Ult precio');
+    data.addColumn('number', 'Alto Hist.');
+    data.addColumn('number', 'Bajo Hist.');
+    data.addColumn('number', 'Último valor');
     data.addColumn('number', 'Cambio %');
 
 
@@ -30,8 +31,20 @@ export function drawTable(stocks, dictVolTot, dictAltHis, dictBajHis, dictLastPr
         document.getElementById('stocks_table_div'),
     );
 
+    const cssClassNames = {
+        headerRow: 'cssHeaderRow',
+        tableRow: 'cssTableRow',
+        oddTableRow: 'cssOddTableRow',
+        selectedTableRow: 'cssSelectedTableRow',
+        hoverTableRow: 'cssHoverTableRow',
+        hoverHeaderRow: 'cssHoverHeaderRow',
+        headerCell: 'cssHeaderCell',
+        tableCell: 'cssTableCell',
+    };
+
     const options = {
         title: 'Acciones y sus parámetros',
+        cssClassNames,
     };
 
     chart.draw(data, options);

@@ -18,10 +18,53 @@ export function drawLineChart(tickers, rows) {
 
     const options = {
         title: 'Acciones en el Tiempo',
-        hAxis: {
-            format: 'hh:mm:ss',
-            gridlines: {count: 15}
+        titleTextStyle: {
+            color: '#f4511e',
+            fontSize: 28,
+            fontName: 'Raleway',
+            bold: true,
+            italic: false,
         },
+        hAxis: {
+            title: 'Tiempo',
+            format: 'hh:mm:ss',
+            gridlines: {count: 15},
+            titleTextStyle: {
+                fontName: 'Lato',
+                bold: true,
+                italic: false,
+            },
+            textStyle: {
+                fontName: 'Lato',
+                bold: true,
+            },
+        },
+        vAxis: {
+        title: 'Precio',
+            titleTextStyle: {
+                fontName: 'Lato',
+                bold: true,
+                italic: false,
+            },
+            textStyle: {
+                fontName: 'Lato',
+                bold: true,
+            },
+        },
+        chartArea: {
+            backgroundColor: '#F0F1F2',
+        },
+        backgroundColor: '#F0F1F2',
+        tooltip: {
+            textStyle: {
+                fontName: 'Raleway',
+            }
+        },
+        legend: {
+            textStyle: {
+                fontName: 'Raleway',
+            }
+        }
     };
 
     chart.draw(data, options);
