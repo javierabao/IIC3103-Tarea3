@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/IIC3103-Tarea3/static/css/main.9777f490.chunk.css",
-    "main.js": "/IIC3103-Tarea3/static/js/main.2c503be9.chunk.js",
-    "main.js.map": "/IIC3103-Tarea3/static/js/main.2c503be9.chunk.js.map",
+    "main.css": "/IIC3103-Tarea3/static/css/main.0a766462.chunk.css",
+    "main.js": "/IIC3103-Tarea3/static/js/main.6f9f0933.chunk.js",
+    "main.js.map": "/IIC3103-Tarea3/static/js/main.6f9f0933.chunk.js.map",
     "runtime-main.js": "/IIC3103-Tarea3/static/js/runtime-main.779804fd.js",
     "runtime-main.js.map": "/IIC3103-Tarea3/static/js/runtime-main.779804fd.js.map",
     "static/js/2.788645f6.chunk.js": "/IIC3103-Tarea3/static/js/2.788645f6.chunk.js",
     "static/js/2.788645f6.chunk.js.map": "/IIC3103-Tarea3/static/js/2.788645f6.chunk.js.map",
     "index.html": "/IIC3103-Tarea3/index.html",
-    "precache-manifest.8f35f3d6ef025ea24c8b97af7bf7cf0a.js": "/IIC3103-Tarea3/precache-manifest.8f35f3d6ef025ea24c8b97af7bf7cf0a.js",
+    "precache-manifest.d6f85666b97bedc70f87d675004e0efa.js": "/IIC3103-Tarea3/precache-manifest.d6f85666b97bedc70f87d675004e0efa.js",
     "service-worker.js": "/IIC3103-Tarea3/service-worker.js",
-    "static/css/main.9777f490.chunk.css.map": "/IIC3103-Tarea3/static/css/main.9777f490.chunk.css.map",
+    "static/css/main.0a766462.chunk.css.map": "/IIC3103-Tarea3/static/css/main.0a766462.chunk.css.map",
     "static/js/2.788645f6.chunk.js.LICENSE.txt": "/IIC3103-Tarea3/static/js/2.788645f6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/IIC3103-Tarea3/static/media/Raleway-Regular.9942588a.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.779804fd.js",
     "static/js/2.788645f6.chunk.js",
-    "static/css/main.9777f490.chunk.css",
-    "static/js/main.2c503be9.chunk.js"
+    "static/css/main.0a766462.chunk.css",
+    "static/js/main.6f9f0933.chunk.js"
   ]
 }
